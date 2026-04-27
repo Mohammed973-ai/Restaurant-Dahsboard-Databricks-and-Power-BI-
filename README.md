@@ -13,10 +13,12 @@ The answer lies in using the **Databricks platform**—a comprehensive, "all-in-
 * **For Data Engineers:** Traditionally, managing Big Data required manually setting up **Spark Clusters**, which often led to configuration "headaches" involving complex dependencies and networking issues. Databricks revolutionized this by allowing users to simply select their machine size; with a single click, the entire environment is built. Databricks handles everything from infrastructure to **Auto-scaling**.
 * **For Data Analysts:** Since most analytical work involves **Structured Data**, Databricks allows us to store data in a **SQL Warehouse**. This can then be easily connected to industry-standard visualization tools like Power BI.
 * **For Data Scientists:** Because Databricks can store **Structured, Semi-Structured, and Unstructured data**, it provides a robust environment for **Data Mining** and advanced modeling.
-
-## Project Workflow
-
-## Notbook link : https://dbc-ba5e8de0-ca74.cloud.databricks.com/editor/notebooks/82738955845747?o=7474651131297771
+### Project workflow
+* I uploaded the (11M)rows data (+2G) on SQL Warehouse
+* I used spark sql and pyspark to merge and clean data
+* I connected by Power BI to the warehouse using DirectQuery mode
+  
+## Notbook link on Databricks: https://dbc-ba5e8de0-ca74.cloud.databricks.com/editor/notebooks/82738955845747?o=7474651131297771
 
 <img width="1445" height="823" alt="overview" src="https://github.com/user-attachments/assets/30ae0533-6e45-44ea-b820-6b156a6d91b5" />
 <img width="1442" height="814" alt="Customers   Loyalty" src="https://github.com/user-attachments/assets/4b2ee42c-9c56-4b97-a382-bf5dcd50851f" />
